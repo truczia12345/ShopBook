@@ -1,0 +1,136 @@
+<%- include('layout/header.ejs') %>
+<%- include('layout/navbar.ejs', {categories: categories}) %>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+
+<body>
+  <h3>Sửa địa chỉ</h3>
+
+  <!-- Biểu mẫu sửa địa chỉ -->
+  <form id="editAddressForm" action="/edit-address/<%= address._id %>" method="post">
+    <label for="street">Địa chỉ giao hàng:</label>
+    <input type="text" name="street" value="<%= address.street %>" required>
+
+    <label for="commune">Phường/Xã:</label>
+    <input type="text" name="commune" value="<%= address.commune %>" required>
+
+    <label for="district">Quận/Huyện:</label>
+    <input type="text" name="district" value="<%= address.district %>" required>
+
+    <label for="city">Thành phố:</label>
+    <input type="text" name="city" value="<%= address.city %>" required>
+
+    
+
+    <button type="submit">Cập nhật địa chỉ</button>
+  </form>
+  <br>
+  
+  <hr>
+
+  <!-- Danh sách địa chỉ -->
+</body>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const editAddressForm = document.getElementById("editAddressForm");
+
+    editAddressForm.addEventListener("submit", async function (event) {
+      event.preventDefault();
+
+      try {
+        const response = await fetch("/edit-address/<%= address._id %>", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            street: editAddressForm.street.value,
+            commune: editAddressForm.commune.value,
+            district: editAddressForm.district.value,
+            city: editAddressForm.city.value,
+            
+          }),
+        });
+
+        const data = await response.json();
+
+        if (data.success) {
+          Swal.fire({
+            icon: "success",
+            title: "Thành công!",
+            text: data.message,
+          }).then(() => {
+            // Redirect to user-addresses page upon success
+            window.location.href = "/user-addresses";
+          });
+        } else {
+          Swal.fire({
+            icon: "error",
+            title: "Lỗi!",
+            text: data.message || "Có lỗi khi cập nhật địa chỉ",
+          });
+        }
+      } catch (error) {
+        console.error(error);
+        Swal.fire({
+          icon: "error",
+          title: "Lỗi!",
+          text: "Đã xảy ra lỗi khi xử lý yêu cầu của bạn",
+        });
+      }
+    });
+  });
+</script>
+
+
+<%- include('layout/footer.ejs') %>

@@ -1,0 +1,60 @@
+<%- include('layout/header.ejs') %>
+<%- include('layout/navbar.ejs', {categories: categories}) %>
+
+<input type="hidden" name="paymentMethod" id="paymentMethod" value="<%= paymentMethod %>" />
+<input type="hidden" name="vnpAmount" id="vnpAmount" value="<%= vnpAmount %>" />
+<input type="hidden" name="vnpTransactionNo" id="vnpTransactionNo" value="<%= vnpTransactionNo %>" />
+<input type="hidden" name="vnpBankCode" id="vnpBankCode" value="<%= vnpBankCode %>" />
+
+<div id="loading-container" class="text-center">
+  <div class="spinner-border" role="status" style="width: 4rem; height: 4rem;">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <p style="font-size: 18px;">Đang xử lý đơn hàng. Vui lòng đợi...</p>
+</div>
+<hr>
+
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+<script>
+  $(document).ready(function () {
+    // Thay đổi từ sự kiện click sang sự kiện load
+    $(window).on("load", function () {
+      $.ajax({
+        type: "POST",
+        dataType: "JSON",
+        url: "/orderCart",
+        data: {
+          type: 'orderCart',
+          paymentMethod: $("#paymentMethod").val(),
+          vnpAmount: $("#vnpAmount").val(),
+          vnpTransactionNo: $("#vnpTransactionNo").val(),
+          vnpBankCode: $("#vnpBankCode").val(),
+        },
+        success: function (res) {
+          Swal.fire({
+            icon: res.status === true ? "success" : "error",
+            title: 'Thông Báo',
+            text: res.message
+          }).then((result) => {
+            if (res.status === true) {
+              window.location.href = "/listOrder"
+            } else {
+              window.location.href = "/login";
+            }
+          });
+        },
+        error: function (xhr, status, error) {
+          console.error(error);
+        },
+        complete: function () {
+          // Remove the loading container when the AJAX call is complete
+          $("#loading-container").remove();
+        }
+      });
+    });
+  });
+</script>
+
+<%- include('layout/footer.ejs') %>

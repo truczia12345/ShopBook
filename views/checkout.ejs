@@ -1,0 +1,283 @@
+<%- include('layout/header.ejs') %>
+  <%- include('layout/navbar.ejs', {categories: categories}) %>
+  <% function formatNumber(num) {
+    if (num == null) {
+      return "0"; 
+     } 
+     return num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, "$1,"); } 
+     %>
+     <style>
+      /* Thêm CSS cho modal */
+      .modal-content {
+        color: #000; /* Màu chữ cho modal */
+      }
+    
+      .modal-body {
+        font-size: 16px; /* Kích thước chữ cho nội dung trong modal */
+      }
+    
+      #addressList li {
+        cursor: pointer;
+        padding: 8px;
+        border-bottom: 1px solid #ddd; /* Đường kẻ chia giữa các địa chỉ */
+      }
+    
+      #addressList li:hover {
+        background-color: #f0f0f0; /* Màu nền khi di chuột qua địa chỉ */
+      }
+    </style>
+    
+      <section class="breadcrumb-section">
+        <h2 class="sr-only">Site Breadcrumb</h2>
+        <div class="container">
+          <div class="breadcrumb-contents">
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Home</a></li>
+                <li class="breadcrumb-item active">Checkout</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+      <main id="content" class="page-section inner-page-sec-padding-bottom space-db--20">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <!-- Checkout Form s-->
+              <div class="checkout-form">
+                <div class="row row-40">
+                  
+                  <div class="col-lg-7 mb--20">
+                    <!-- Billing Address -->
+                    <div id="billing-form" class="mb-40">
+                      <h4 class="checkout-title">Địa chỉ thanh toán</h4>
+                      <div class="row">
+                        <div class="col-md-6 col-12 mb--20">
+                          <label>Họ và tên *</label>
+                          <input type="text" id="fullname" value="<%= userOrder.fullname %>" placeholder="Full Name" />
+                        </div>
+
+                        <div class="col-md-6 col-12 mb--20">
+                          <label>Địa chỉ Email *</label>
+                          <input type="email" id="email" value="<%= locals.email %>" placeholder="Email Address" />
+                        </div>
+                        <div class="col-md-6 col-12 mb--20">
+                          <label>Số điện thoại *</label>
+                          <input type="text" id="phone" placeholder="Số điện thoại" />
+                        </div>
+                        <div class="col-md-6 col-12 mb--20">
+                          <label>Địa chỉ *</label>
+                          <div class="input-group">
+                            <textarea style="width: 400px; border-radius: 5px;  height: 50px;" id="address" placeholder="ㅤĐịa chỉ" disabled></textarea>
+                            <div class="input-group-append" style="margin-top: 20px;">
+                              <button class="btn btn-outline-secondary" type="button" onclick="openAddressModal()">Chọn Địa Chỉ</button>
+                            </div>
+                          </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="addressModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog" role="document" style="margin-right: 650px;">
+                            <div class="modal-content" style="background-color: rgb(241, 241, 241); width: 830px;">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Danh sách địa chỉ giao h</h5>
+                              </div>
+                              <div class="modal-body" id="addressDetails"></div>
+                              <div class="modal-footer">
+                                <button class="btn btn-outline" type="button" onclick="addAddress()"><a href="/addresses">Thêm Địa Chỉ Mới</a></button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                    </div>
+
+                    <div class="order-note-block mt--5">
+                      <label for="order-note">Ghi chú</label>
+                      <textarea id="comment" cols="30" rows="10" class="order-note"
+                        placeholder="Nhập Vấn Đề"></textarea>
+                    </div>
+                  </div>
+                  <div class="col-lg-5">
+                    <div class="row">
+                      <!-- Cart Total -->
+                      <div class="col-12">
+                        <div class="checkout-cart-total">
+                          <h2 class="checkout-title">Đơn hàng của bạn</h2>
+                          <h4>Sản phẩm <span>Tổng</span></h4>
+                          <ul>
+                            <% if(products.length===0) { %>
+                              <p class="text-center text-danger font-weight-bold">Your cart is empty.</p>
+                              <% } else { %>
+                                <% products.forEach(function(product) { %>
+                                  <li>
+                                    <span class="left">
+                                      <%= product.item.title %> X <%= product.quantity %>
+                                    </span>
+                                    <span class="right">
+                                      <%= formatNumber(product.item.price * product.quantity) %>
+                                    </span>
+                                  </li>
+                                  <% }) %>
+                                    <% } %>
+                          </ul>
+                          <p>Tổng đơn hàng <span>
+                              <%= products.length !==0 ? formatNumber(totalPrice) : 0 %> VNĐ
+                            </span></p>
+                          <input type="hidden" name="totalPrice" id="totalPrice" value="<%= totalPrice %>" />
+                          <p>Phí vận chuyển<span>0 VNĐ</span></p>
+
+                          <br>
+                          <div>
+                            <input type="radio" style="height: 15px; width: 30px;padding-right: 20px;" id="vnpay"
+                              name="paymentMethod" value="vnpay" />
+
+                            <label htmlFor="vnpay" className="text-[17px] text-normal text-black">
+                              Thanh Toán VnPay
+                            </label>
+                          </div>
+
+                          
+
+
+
+                          <input type="radio" style="height: 15px; width: 30px;" id="delivery" name="paymentMethod"
+                            value="delivery" />
+                          <label htmlFor="delivery" className="text-[17px] text-normal text-black">
+                            Thanh Toán Khi Giao Hàng
+                          </label>
+
+                        </div>
+                        <div class="term-block">
+                          <button id="addOrderCart" class="place-order w-100">Đặt hàng</button>
+
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <hr>
+      <script>
+        // Gửi Data
+$("#addOrderCart").on("click", function () {
+  // Kiểm tra xem các trường bắt buộc đã được nhập chưa
+  const fullname = $("#fullname").val();
+  const email = $("#email").val();
+  const phone = $("#phone").val();
+  const address = $("#address").val();
+  const comment = $("#comment").val();
+
+  if (!fullname || !email || !phone || !address || !comment) {
+    // Sử dụng SweetAlert để hiển thị thông báo lỗi
+    Swal.fire({
+      icon: 'error',
+      title: 'Lỗi',
+      text: 'Vui lòng nhập đầy đủ thông tin.',
+    });
+    return;
+  }
+
+  // Nếu tất cả các trường đã được nhập, tiến hành gửi dữ liệu đặt hàng
+  $.ajax({
+    type: "POST",
+    dataType: "JSON",
+    url: `/orderPayment/${$("input[name='paymentMethod']:checked").val()}`,
+    data: {
+      type: 'orderCart',
+      fullname: fullname,
+      email: email,
+      phone: phone,
+      address: address,
+      comment: $("#comment").val(),
+      totalPrice: $("#totalPrice").val(),
+      paymentMethod: $("input[name='paymentMethod']:checked").val(),
+    },
+    success: function (res) {
+              window.location.href = res.vnpUrl;
+            },
+    error: function (xhr, status, error) {
+      console.error(error);
+      // Sử dụng SweetAlert để hiển thị thông báo lỗi
+      Swal.fire({
+        icon: 'error',
+        title: 'Lỗi',
+        text: 'Đã xảy ra lỗi khi xử lý đơn hàng.',
+      });
+    },
+  });
+});
+
+
+      </script>
+     <script>
+      async function openAddressModal() {
+        try {
+          // Gọi API để lấy danh sách địa chỉ
+          const response = await fetch('/api/user-addresses');
+          if (!response.ok) {
+            throw new Error('Network response was not ok');
+          }
+    
+          const addresses = await response.json();
+    
+          // Cập nhật modal với danh sách địa chỉ
+          updateAddressModal(addresses);
+    
+          // Hiển thị modal
+          $('#addressModal').modal('show');
+        } catch (error) {
+          console.error('Error fetching user addresses:', error);
+        }
+      }
+    
+      function updateAddressModal(addresses) {
+        const addressDetails = document.getElementById('addressDetails');
+        addressDetails.innerHTML = '';
+    
+        addresses.forEach(address => {
+          const addressContainer = document.createElement('div');
+          addressContainer.className = 'address-container';
+          addressContainer.style = "border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; border-radius: 8px; width: 250px; height:170px; display: inline-block; margin-right: 15px; margin-bottom: 15px; cursor: pointer;";
+          
+          const addressContent = document.createElement('div');
+          addressContent.innerHTML = `
+            <h6><strong>Địa chỉ:</strong> ${address.street}</h6>
+            <p><strong>Phường/Xã:</strong> ${address.commune}</p>
+            <p><strong>Quận/Huyện:</strong> ${address.district}</p>
+            <p><strong>Tỉnh/Thành phố:</strong> ${address.city}</p>
+          `;
+    
+          addressContainer.appendChild(addressContent);
+
+          addressContainer.addEventListener('mouseenter', function () {
+      addressContainer.style.backgroundColor = '#CDC9C9'; // Đổi màu khi rê chuột vào
+    });
+
+    addressContainer.addEventListener('mouseleave', function () {
+      addressContainer.style.backgroundColor = ''; // Xóa màu khi chuột rời đi
+    });
+
+    
+          addressContainer.onclick = function () {
+            selectAddress(address);
+            $('#addressModal').modal('hide');
+          };
+    
+          addressDetails.appendChild(addressContainer);
+        });
+      }
+    
+      function selectAddress(address) {
+        document.getElementById('address').value = `${address.street}, ${address.commune}, ${address.district}, ${address.city}`;
+      }
+    </script>
+      
+      <%- include('layout/footer.ejs') %>

@@ -1,0 +1,155 @@
+<%- include('layout/header.ejs') %>
+<%- include('layout/navbar.ejs', {categories: categories}) %>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+
+  h3 {
+    text-align: center;
+    color: #333;
+  }
+
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #45a049;
+  }
+</style>
+
+
+<body>
+  <section class="breadcrumb-section">
+    <h2 class="sr-only">Site Breadcrumb</h2>
+    <div class="container">
+      <div class="breadcrumb-contents">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active">Add Addres</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <!-- Biểu mẫu thêm mới địa chỉ -->
+  <form id="addAddressForm" action="/addresses" method="post">
+    <label for="street">Địa chỉ giao hàng:</label>
+    <input type="text" name="street" required>
+
+    <label for="commune">Phường/Xã:</label>
+    <input type="text" name="commune" required>
+
+    <label for="district">Quận/Huyện:</label>
+    <input type="text" name="district" required>
+
+    <label for="city">Thành phố/Tỉnh:</label>
+    <input type="text" name="city" required>
+
+
+    <!-- UserID của người dùng, bạn có thể lấy thông qua đăng nhập hoặc cách khác -->
+    <input type="hidden" name="userId" value="5fecb88f5e485a2c102c9a6d">
+
+    <button type="submit">Thêm địa chỉ </button>
+  </form>
+<br>
+  
+  <hr>
+
+  <!-- Danh sách địa chỉ -->
+</body>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const addAddressForm = document.getElementById("addAddressForm");
+
+    addAddressForm.addEventListener("submit", async function (event) {
+      event.preventDefault(); // Ngăn chặn sự kiện gửi form mặc định
+
+      try {
+        const response = await fetch("/addresses", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            street: addAddressForm.street.value,
+            commune: addAddressForm.commune.value,
+            district: addAddressForm.district.value,
+            city: addAddressForm.city.value,
+            
+          }),
+        });
+
+        const data = await response.json();
+
+        if (response.ok) {
+          // Hiển thị swal khi địa chỉ được thêm thành công
+          Swal.fire({
+            icon: "success",
+            title: "Thành công!",
+            text: data.message,
+          }).then(() => {
+            // Chuyển hướng đến trang user-addresses sau khi swal đóng
+            window.location.href = "/user-addresses";
+          });
+        } else {
+          // Hiển thị swal khi có lỗi từ phía máy chủ
+          Swal.fire({
+            icon: "error",
+            title: "Lỗi!",
+            text: data.message || "Có lỗi khi thêm địa chỉ",
+          });
+        }
+      } catch (error) {
+        console.error(error);
+        // Hiển thị swal khi có lỗi xử lý yêu cầu
+        Swal.fire({
+          icon: "error",
+          title: "Lỗi!",
+          text: "Đã xảy ra lỗi khi xử lý yêu cầu của bạn",
+        });
+      }
+    });
+  });
+</script>
+
+
+<%- include('layout/footer.ejs') %>

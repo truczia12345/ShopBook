@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Node JS</title>
+    <link rel="shortcut icon" href="https://i.imgur.com/6jV0B3A.png">
+    <link rel="icon" href="https://i.imgur.com/6jV0B3A.png">
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/fontawesome-free/css/all.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="/template/AdminLTE3/dist/css/adminlte.min.css">
+    <!-- Cute Alert -->
+    <link class="main-stylesheet" href="/template/cute/cute-alert.css" rel="stylesheet" type="text/css">
+    <script src="/template/cute/cute-alert.js"></script>
+    <!-- JQVMap -->
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/jqvmap/jqvmap.min.css">
+    <!-- summernote -->
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/summernote/summernote-bs4.css">
+    <!-- Sparkline -->
+    <script src="/template/AdminLTE3/plugins/sparklines/sparkline.js"></script>
+    <!-- jQuery -->
+    <script src="/template/js/jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/datatables-responsive/css/responsive.bootstrap4.min.css">
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/datatables-buttons/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="/template/AdminLTE3/plugins/summernote/summernote-bs4.css">
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+
+    <nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="/" class="nav-link">HOME</a>
+            </li>
+            <li class="nav-item d-none d-sm-inline-block">
+                <a href="//zalo.me/0934436067" class="nav-link">LIÊN HỆ KỸ THUẬT</a>
+            </li>
+        </ul>
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+            <!-- Messages Dropdown Menu -->
+            <li class="nav-item dropdown">
+                <a class="nav-link" data-toggle="dropdown" href="#">
+                    <i class="far fa-comments"></i>
+                    <span class="badge badge-danger navbar-badge">3</span>
+                </a>
+                <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+                    <a href="#" class="dropdown-item">
+                        <!-- Message Start -->
+                        <div class="media">
+                            <img src="https://i.imgur.com/AQKEmIt.jpeg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+                            <div class="media-body">
+                                <h3 class="dropdown-item-title">
+                                    Le Quoc Huy
+                                    <span class="float-right text-sm text-danger"><i class="fas fa-star"></i></span>
+                                </h3>
+                                <p class="text-sm">Chào hôm nay của bạn tốt chứ.!</p>
+                                <p class="text-sm text-muted"><i class="far fa-clock mr-1"></i> 1 Hours Ago</p>
+                            </div>
+                        </div>
+                        <!-- Message End -->
+                    </a>
+                    <div class="dropdown-divider"></div>
+                    <a href="#" class="dropdown-item dropdown-footer">See All Messages</a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+
+
+        <div class="sidebar">
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+                    <li class="nav-item has-treeview">
+                        <a href="/admin" class="nav-link ">
+                            <i class="nav-icon fas fa-tachometer-alt"></i>
+                            <p>
+                                Dashboard
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item has-treeview">
+                        <a href="/admin/ListUsers" class="nav-link ">
+                            <i class="nav-icon fas fa-user-alt"></i>
+                            <p>Thành Viên</p>
+                        </a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a href="/admin/category" class="nav-link ">
+                            <i class="nav-icon fas fa-book"></i>
+                            <p>
+                                List Category
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/product" class="nav-link ">
+                            <i class="nav-icon fas fa-book"></i>
+                            <p>
+                                List Product
+                            </p>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="/admin/listOrder" class="nav-link ">
+                            <i class="nav-icon fas fa-book"></i>
+                            <p>
+                                List Đơn Hàng
+                            </p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/admin/listComment" class="nav-link ">
+                            <i class="nav-icon fas fa-cog"></i>
+                            <p>
+                                List Comment
+                            </p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    <div class="content-wrapper">
+        <section class="content">
+            <div class="container-fluid">
+
+
+                <div class="row mb-2">
+                    <div class="col-sm-6"></div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row -->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <h3 class="card-title">NHÓM ĐƠN HÀNG</h3>
+                            </div>
+                            <!-- /.card-header -->
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table id="datatable1" class="table table-bordered table-striped">
+                                        <thead>
+                                            <tr class="text-center">
+                                                <th style="width: 5px">STT</th>
+                                                <th>MÃ ĐƠN HÀNG</th>
+                                                <th>EMAIL</th>
+                                                <th>TÌNH TRẠNG</th>
+                                                <th>TỔNG TIỀN</th>
+                                                <th>THAO TÁC</th>
+                                                <th>CHI TIẾT</th>
+                                                <th>NGÀY ĐẶT</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+
+                                            <tr class="text-center">
+                                                <td>1</td>
+                                                <td>VB8HW</td>
+                                                <td>qduy.dev@gmail.com</td>
+                                                <td style="font-weight:bold;color: #66CC33;">Complete</td>
+
+                                                <td>745,000</td>
+                                                <td>
+
+                                                    <button class='btn btn-success' disabled ">Khách Hàng Đã Nhận</button>
+                    
+                  </td>
+                  <td><a href="/admin/detailOrder/VB8HW " class="btn btn-info text-light ">Chi Tiết</a></td>
+                  <td>3/19/2023, 2:45:22 AM</td>
+                </tr>
+              
+                <tr class="text-center ">
+                  <td>2</td>
+                  <td>AUI2L</td>
+                  <td>qduy.dev@gmail.com</td>
+                  <td style = "font-weight:bold;color: #66CC33; ">Complete</td>
+
+                  <td>470,000</td>
+                  <td>
+                    
+                      <button class='btn btn-success' disabled">Khách Hàng Đã Nhận</button>
+
+                                                </td>
+                                                <td><a href="/admin/detailOrder/AUI2L" class="btn btn-info text-light">Chi Tiết</a></td>
+                                                <td>3/19/2023, 6:01:18 AM</td>
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td>3</td>
+                                                <td>WQ42R</td>
+                                                <td>qduy.dev@gmail.com</td>
+                                                <td style="font-weight:bold;color: #66CC33;">Complete</td>
+
+                                                <td>1,290,000</td>
+                                                <td>
+
+                                                    <button class='btn btn-success' disabled ">Khách Hàng Đã Nhận</button>
+                    
+                  </td>
+                  <td><a href="/admin/detailOrder/WQ42R " class="btn btn-info text-light ">Chi Tiết</a></td>
+                  <td>3/21/2023, 2:59:29 PM</td>
+                </tr>
+              
+                <tr class="text-center ">
+                  <td>4</td>
+                  <td>1E96Q</td>
+                  <td>qduy.dev@gmail.com</td>
+                  <td style = "font-weight:bold;color: #66CC33; ">Complete</td>
+
+                  <td>1,050,000</td>
+                  <td>
+                    
+                      <button class='btn btn-success' disabled">Khách Hàng Đã Nhận</button>
+
+                                                </td>
+                                                <td><a href="/admin/detailOrder/1E96Q" class="btn btn-info text-light">Chi Tiết</a></td>
+                                                <td>3/23/2023, 4:07:45 AM</td>
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td>5</td>
+                                                <td>5PHXT</td>
+                                                <td>qhuy.dev@gmail.com</td>
+                                                <td style="font-weight:bold;color: #66CC33;">Complete</td>
+
+                                                <td>245,000</td>
+                                                <td>
+
+                                                    <button class='btn btn-success' disabled ">Khách Hàng Đã Nhận</button>
+                    
+                  </td>
+                  <td><a href="/admin/detailOrder/5PHXT " class="btn btn-info text-light ">Chi Tiết</a></td>
+                  <td>3/27/2023, 7:21:48 AM</td>
+                </tr>
+              
+                <tr class="text-center ">
+                  <td>6</td>
+                  <td>2920O</td>
+                  <td>huyviafb2016@gmail.com</td>
+                  <td style = "font-weight:bold;color: #66CC33; ">Complete</td>
+
+                  <td>420,000</td>
+                  <td>
+                    
+                      <button class='btn btn-success' disabled">Khách Hàng Đã Nhận</button>
+
+                                                </td>
+                                                <td><a href="/admin/detailOrder/2920O" class="btn btn-info text-light">Chi Tiết</a></td>
+                                                <td>4/2/2023, 5:48:07 AM</td>
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td>7</td>
+                                                <td>2PWPZ</td>
+                                                <td>qhuy.dev@gmail.com</td>
+                                                <td style="font-weight:bold;color: #66CC33;">Complete</td>
+
+                                                <td>445,000</td>
+                                                <td>
+
+                                                    <button class='btn btn-success' disabled ">Khách Hàng Đã Nhận</button>
+                    
+                  </td>
+                  <td><a href="/admin/detailOrder/2PWPZ " class="btn btn-info text-light ">Chi Tiết</a></td>
+                  <td>4/19/2023, 10:00:05 AM</td>
+                </tr>
+              
+                <tr class="text-center ">
+                  <td>8</td>
+                  <td>4MSR6</td>
+                  <td>qhuy.dev@gmail.com</td>
+                  <td style = "font-weight:bold;color: #66CC33; ">Complete</td>
+
+                  <td>175,000</td>
+                  <td>
+                    
+                      <button class='btn btn-success' disabled">Khách Hàng Đã Nhận</button>
+
+                                                </td>
+                                                <td><a href="/admin/detailOrder/4MSR6" class="btn btn-info text-light">Chi Tiết</a></td>
+                                                <td>7/29/2023, 6:16:55 AM</td>
+                                            </tr>
+
+                                            <tr class="text-center">
+                                                <td>9</td>
+                                                <td>A0JVP</td>
+                                                <td>qhuy.dev@gmail.com</td>
+                                                <td style="font-weight:bold;color: #d51ac0;">Delivering</td>
+
+                                                <td>350,000</td>
+                                                <td>
+
+                                                    <button class='btn btn-info' disabled ">Đợi Phản Hồi</button>
+                    
+                  </td>
+                  <td><a href="/admin/detailOrder/A0JVP " class="btn btn-info text-light ">Chi Tiết</a></td>
+                  <td>7/31/2023, 10:28:10 AM</td>
+                </tr>
+              
+                <tr class="text-center ">
+                  <td>10</td>
+                  <td>BLUAA</td>
+                  <td>qhuy.dev@gmail.com</td>
+                  <td style = "font-weight:bold;color: #66CC33; ">Complete</td>
+
+                  <td>350,000</td>
+                  <td>
+                    
+                      <button class='btn btn-success' disabled">Khách Hàng Đã Nhận</button>
+
+                                                </td>
+                                                <td><a href="/admin/detailOrder/BLUAA" class="btn btn-info text-light">Chi Tiết</a></td>
+                                                <td>10/19/2023, 8:51:24 AM</td>
+                                            </tr>
+
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            <!-- /.card-body -->
+                            <div class="card-footer clearfix">VUI LÒNG THAO TÁC CẨN THẬN</div>
+                        </div>
+                        <!-- /.card -->
+                    </div>
+                    <!-- /.col -->
+                </div>
+                <!-- /.row huydeV -->
+                <script>
+                    $(function() {
+                        $("#datatable1").DataTable();
+                    });
+                </script>
+
+            </div>
+            <!-- /.container-fluid -->
+        </section>
+        <!-- /.content -->
+    </div>
+    <!-- jQuery -->
+    <script>
+        $(function() {
+            var url = window.location.pathname,
+                urlRegExp = new RegExp(url.replace(/\/$/, '') + "$");
+            $('ul li a').each(function() {
+                if (urlRegExp.test(this.href.replace(/\/$/, ''))) {
+                    var href = $(this).parents().eq(0).attr('id');
+                    $(this).addClass('nav-link active');
+                    $('#' + href).addClass('nav-link active');
+                    Checkhref(href);
+                }
+            });
+
+            function Checkhref(href) {
+                $('ul li a').each(function() {
+                    if ($(this).attr('href') == "#" + href) {
+                        $(this).addClass('nav-link active');
+                    }
+                });
+            }
+        });
+    </script>
+    <footer class="main-footer">
+        <div class="float-right d-none d-sm-inline">
+            Version <b style="color:red;">1.0</b>
+        </div>
+        <strong>Developer By <a href="https://www.facebook.com/huydev03" target="_blank">Lê Quốc Huy</a></strong>
+    </footer>
+    </div>
+    <!-- jQuery UI 1.11.4 -->
+    <script src="/template/AdminLTE3/plugins/jquery-ui/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+        $.widget.bridge('uibutton', $.ui.button)
+    </script>
+    <!-- Bootstrap 4 -->
+    <script src="/template/AdminLTE3/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/template/AdminLTE3/dist/js/adminlte.min.js"></script>
+    <!-- AdminLTE for demo purposes -->
+    <script src="/template/AdminLTE3/dist/js/demo.js"></script>
+    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+    <script src="/template/AdminLTE3/dist/js/pages/dashboard.js"></script>
+    <!-- ChartJS -->
+    <script src="/template/AdminLTE3/plugins/chart.js/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js"></script>
+    <!-- DataTables  & Plugins -->
+    <script src="/template/AdminLTE3/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-bs4/js/dataTables.bootstrap4.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-responsive/js/responsive.bootstrap4.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-buttons/js/buttons.bootstrap4.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/jszip/jszip.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/pdfmake/pdfmake.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/pdfmake/vfs_fonts.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-buttons/js/buttons.html5.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-buttons/js/buttons.print.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/datatables-buttons/js/buttons.colVis.min.js"></script>
+    <script src="/template/AdminLTE3/plugins/summernote/summernote-bs4.min.js"></script>
+</body>
+
+</html>
