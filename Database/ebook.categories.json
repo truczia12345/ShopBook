@@ -1,0 +1,98 @@
+[{
+  "_id": {
+    "$oid": "6412f44cb70441d611e420bb"
+  },
+  "categoryName": "Sách Chứng Khoán",
+  "categorySlug": "sach-chung-khoan",
+  "createdAt": {
+    "$date": "2023-03-16T10:49:48.520Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T02:18:35.876Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6412f11d7927930585818de8"
+  },
+  "categoryName": "Sách Kỹ Năng ",
+  "categorySlug": "sach-ky-nang",
+  "createdAt": {
+    "$date": "2023-03-16T10:36:13.022Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-26T05:15:13.735Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6419c6aa542fca0bf019b259"
+  },
+  "categoryName": "Sách Nhật",
+  "categorySlug": "sach-nhat",
+  "createdAt": {
+    "$date": "2023-03-21T15:00:58.062Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-21T15:02:14.021Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6412f40401b9e79a609d5fc8"
+  },
+  "categoryName": "Sách Tài Chính",
+  "categorySlug": "sach-tai-chinh",
+  "createdAt": {
+    "$date": "2023-03-16T10:48:36.458Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T02:07:48.911Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6413e0fa197d6e8b39d78849"
+  },
+  "categoryName": "Sách Phân Tích Kỹ Thuật",
+  "categorySlug": "sach-phan-tich-ky-thuat",
+  "createdAt": {
+    "$date": "2023-03-17T03:39:38.637Z"
+  },
+  "updatedAt": {
+    "$date": "2023-03-18T02:23:43.344Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "654cf5ecd7c98fc7e7ec0138"
+  },
+  "categoryName": "Sách hay",
+  "categorySlug": "sach-hay",
+  "createdAt": {
+    "$date": "2023-11-09T15:08:28.408Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-01T13:21:21.739Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df33a887f615128399ac7"
+  },
+  "categoryName": "Sách Manga",
+  "categorySlug": "sach-manga",
+  "createdAt": {
+    "$date": "2023-12-04T15:41:46.828Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-04T15:41:46.828Z"
+  },
+  "__v": 0
+}]

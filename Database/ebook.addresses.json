@@ -1,0 +1,95 @@
+[{
+  "_id": {
+    "$oid": "656f1dbce5da9ad9086424b1"
+  },
+  "street": "chơn tâm 8",
+  "city": "đà nẵng",
+  "country": "Vietnam (ViệtNam)",
+  "user": {
+    "$oid": "6562eb58aefcd6e5dcd047ff"
+  },
+  "__v": 0,
+  "commune": "nghĩa trung",
+  "district": "liên chiểu"
+},
+{
+  "_id": {
+    "$oid": "656f1ebfe5da9ad9086424bd"
+  },
+  "street": "137 nguyễn thị thập",
+  "city": "Da Nang",
+  "country": "Vietnam (ViệtNam)",
+  "user": {
+    "$oid": "656a8ee94a0f469d37fb2d63"
+  },
+  "__v": 0,
+  "commune": "Nghĩa Phương",
+  "district": "Nam đàn"
+},
+{
+  "_id": {
+    "$oid": "65707b68bf519e85bc8411a7"
+  },
+  "street": "an đại 1",
+  "commune": "Nghĩa Phương",
+  "district": "Tư Nghĩa",
+  "city": "Quảng Ngãi",
+  "country": "Vietnam",
+  "user": {
+    "$oid": "6562eb58aefcd6e5dcd047ff"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65708d8db57083d7300cca16"
+  },
+  "street": "Thôn hòa liên",
+  "commune": "Vĩnh yên",
+  "district": "Nam đàn",
+  "city": "Nghệ an",
+  "country": "Vietnam",
+  "user": {
+    "$oid": "65708d5db57083d7300cca0b"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65711cdcd6dae941eac928d0"
+  },
+  "street": "ấp 2",
+  "commune": "Hòa Liên",
+  "district": "Chơn mỹ",
+  "city": "quy nhơn",
+  "user": {
+    "$oid": "6562eb58aefcd6e5dcd047ff"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65713dedd6dae941eac929b0"
+  },
+  "street": "chơn tâm 10",
+  "commune": "nghĩa trung",
+  "district": "thanh khê",
+  "city": "Da Nang ",
+  "user": {
+    "$oid": "6562eb58aefcd6e5dcd047ff"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "657159d2149af9e1cea511a5"
+  },
+  "street": "chơn tâm 10",
+  "commune": "Vĩnh yên",
+  "district": "hòa minh",
+  "city": "Da Nang ",
+  "user": {
+    "$oid": "656a8ee94a0f469d37fb2d63"
+  },
+  "__v": 0
+}]

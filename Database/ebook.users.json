@@ -1,0 +1,138 @@
+[{
+  "_id": {
+    "$oid": "65576c7032a1a8e8a4e9a83a"
+  },
+  "fullname": "Nguyễn Tam Trực",
+  "password": "$2b$10$D6RAsPpM6AFDMJ8VCN79D.8Qb6QrEj3HvS6Bwk/O3ccSjgKtjw/pe",
+  "email": "trucnguyen379t@gmail.com",
+  "token": "5xa4m1sr6g9ps4fjlmoraxwm",
+  "level": "admin",
+  "createdAt": {
+    "$date": "2023-11-17T13:36:48.653Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-27T02:41:12.714Z"
+  },
+  "__v": 0,
+  "resetToken": ""
+},
+{
+  "_id": {
+    "$oid": "6562eb58aefcd6e5dcd047ff"
+  },
+  "fullname": "dinh tan trinh",
+  "password": "$2b$10$eR4PbeOG9304FO72U2Dw8./DP4xA8TdyHKEG9l0vN5JoTjPCzPkja",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "token": "85ejn6hxfs5uq5n5m41obv7d",
+  "level": "admin",
+  "createdAt": {
+    "$date": "2023-11-26T06:53:12.457Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-04T16:48:41.932Z"
+  },
+  "__v": 0,
+  "resetToken": ""
+},
+{
+  "_id": {
+    "$oid": "65674994aa5059577afcf2de"
+  },
+  "fullname": "Tuấn Kiệt Nguyễn",
+  "password": "$2b$10$fLFLNxyyPlV7.lhEUvlIz.utkd1BmPLYlZfBMcIUmbrqhIqsONsJK",
+  "email": "admin@gmail.com",
+  "token": "qsslnsft8i00gy17bqk6g3p6",
+  "level": "member",
+  "createdAt": {
+    "$date": "2023-11-29T14:24:20.159Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-29T14:24:20.159Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656976cb4151b2662a2539e0"
+  },
+  "fullname": "dinh ngoc hoang",
+  "password": "$2b$10$aDSCPdLE592/nkO1BrHhbeGLUDxU3VyCyiuB9ftrmtmFhMNuGSpYW",
+  "email": "ngochoang27810@gmail.com",
+  "token": "oigsv7ez1n9dmxceoengxdl4",
+  "level": "member",
+  "createdAt": {
+    "$date": "2023-12-01T06:01:47.400Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-01T06:01:47.400Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6569dc314a7b1bdc06ea68ff"
+  },
+  "fullname": "Nguyễn Tuấn Kiệt",
+  "password": "$2b$10$aE2i8WQADbsTsHmVFiJZFOmXT3mz5kXyBfknpXQhsWGSuf6XBpfoG",
+  "email": "conbadung12603@gmail.com",
+  "token": "qggs5c7gkphbqnwxg7tva2mn",
+  "level": "admin",
+  "createdAt": {
+    "$date": "2023-12-01T13:14:25.396Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-01T13:20:59.753Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656a8ee94a0f469d37fb2d63"
+  },
+  "fullname": "trinh",
+  "password": "$2b$10$PZ0u1t8raR6aC.Ergg3Ft.Iqx6PRrSWnQ3ecdSbEUpamgn0P7sQ8W",
+  "email": "dinhtrinh5678@gmail.com",
+  "token": "r2jklb7f0zcetvvv36wytfh2",
+  "level": "member",
+  "createdAt": {
+    "$date": "2023-12-02T01:56:57.358Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-02T01:56:57.358Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656b5172144c7c26289103f5"
+  },
+  "fullname": "phong",
+  "password": "$2b$10$9Wfn8o80Pq6YTcowm0QRIe8/umeAY9u8Oib3Eli5GV5MpfgWT4muu",
+  "email": "phong@gmail.com",
+  "token": "5zaew5cv5190f4mxi5s5yjlt",
+  "level": "admin",
+  "createdAt": {
+    "$date": "2023-12-02T15:46:58.241Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-02T15:46:58.241Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65708d5db57083d7300cca0b"
+  },
+  "fullname": "nguyễn văn a",
+  "password": "$2b$10$EzWIMFodB4URj3tJCuvfxeRcl5cJkSzGm718JAkRBRQ8U5FNOL7jy",
+  "email": "trinhdinh25092003@gmail.com",
+  "token": "mdlv35hauh0kd7rb7b07n1g9",
+  "level": "admin",
+  "createdAt": {
+    "$date": "2023-12-06T15:03:57.603Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T05:17:33.140Z"
+  },
+  "__v": 0
+}]

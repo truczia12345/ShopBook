@@ -1,0 +1,267 @@
+[{
+  "_id": {
+    "$oid": "6569773e4151b2662a2539e9"
+  },
+  "codeOrder": "OBGG9",
+  "emailOrder": "ngochoang27810@gmail.com",
+  "products": [
+    {
+      "item": {
+        "_id": "656736c61f6ef15a678bcecc",
+        "title": "Cơ Thể Tự Chữa Lành: Nước Ép Cần Tây",
+        "slugProduct": "co-the-tu-chua-lanh-nuoc-ep-can-tay",
+        "price": "250000",
+        "author": "Tan Trinh",
+        "year": "2023",
+        "isbn": "8935095630622",
+        "review_count": "1",
+        "average_score": "5",
+        "image": "/uploads/image_217697.jpg",
+        "describeProduct": "Bìa mềm",
+        "descriptionProduct": "<p><span style=\"color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 14.3px; text-align: justify;\">Cuốn sách tập trung bàn về bản chất, công dụng của nước ép cần tây trong việc điều trị bệnh và phục hồi sức khỏe. Đây là phương pháp đã được vô số người áp dụng và mang lại những hiệu quả vô cùng sâu sắc.</span><br></p>",
+        "categoryName": "sach-hay",
+        "createdAt": "2023-11-29T13:04:06.643Z",
+        "updatedAt": "2023-11-29T13:07:40.856Z",
+        "__v": 0
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6569773e4151b2662a2539ea"
+      }
+    },
+    {
+      "item": {
+        "_id": "6414581d60b1cdabac215ea8",
+        "title": "Marketing Căn Bản",
+        "slugProduct": "marketing-can-ban",
+        "price": "135000",
+        "author": "123",
+        "year": "2023",
+        "isbn": "292827",
+        "review_count": "2",
+        "average_score": "5",
+        "image": "https://nhasachbaoanh.com/wp-content/uploads/2022/06/marketing-can-ban.jpg",
+        "describeProduct": "Dù bạn bán cái gì và bán như thế nào, bạn điều hành một doanh nghiệp nhỏ hay một tập đoàn lớn, cuốn sách hướng dẫn đầy đủ và toàn diện này giải thích tất cả những điều bạn nên biết về marketing hiện đại.",
+        "descriptionProduct": "<p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Quicksand, sans-serif;\"><span style=\"font-weight: bolder;\">Với những hướng dẫn tỉ mỉ và những bảng tính dễ sử dụng, “Marketing căn bản” mang đến một cái nhìn thực tế về marketing và hỗ trợ tất cả những ai muốn tăng doanh thu, lợi nhuận, đồng tiền và RIO của doanh nghiệp mình.</span></p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Quicksand, sans-serif;\">Dưới sự hướng dẫn của Don Sexton, bạn sẽ tự mình khám phá những chiến lược kinh doanh hiệu quả cũng như làm chủ chúng để tăng doanh thu, lợi nhuận, xây dựng thương hiệu và niềm tin của khách hàng.</p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Quicksand, sans-serif;\">Được viết với mục đích vừa như một cuốn sách vỡ lòng vừa như một cuốn sách hướng dẫn cho các khoá học marketing trong trường Đại học Trump, Làm thế nào sử dụng những ý tưởng marketing hiệu quả nhất để thu hút khách hàng cung cấp tất cả các thông tin và chiến lược cần thiết để marketing thành công sản phẩm hoặc dịch vụ.</p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Quicksand, sans-serif;\">Dù bạn bán cái gì và bán như thế nào, bạn điều hành một doanh nghiệp nhỏ hay một tập đoàn lớn, cuốn sách hướng dẫn đầy đủ và toàn diện này giải thích tất cả những điều bạn nên biết về marketing hiện đại.</p><p style=\"margin-bottom: 1.3em; color: rgb(0, 0, 0); font-family: Quicksand, sans-serif;\">Tính cập nhật của cuốn sách được thể hiện qua những kiến thức mới về marketing trong một thế giới phẳng, trong một thời đại mới, khi sự cạnh tranh ngày một khốc liệt thì marketing-mix không chỉ bó hẹp trong 4 Ps truyền thống.</p>",
+        "categoryName": "sach-tai-chinh",
+        "createdAt": "2023-03-17T12:07:57.041Z",
+        "updatedAt": "2023-11-29T04:13:00.634Z",
+        "__v": 0
+      },
+      "quantity": 2,
+      "_id": {
+        "$oid": "6569773e4151b2662a2539eb"
+      }
+    }
+  ],
+  "totalPrice": 520000,
+  "status": "Delivering",
+  "address": "dn",
+  "phone": "09999999999",
+  "paymentMethod": "delivery",
+  "vnpayID": null,
+  "comment": "a",
+  "orderDate": {
+    "$date": "2023-12-01T06:03:42.603Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65706c0a0a33d78d1446590e"
+  },
+  "codeOrder": "0YF82",
+  "emailOrder": "trinhdtpd05658@fpt.edu.vn",
+  "products": [
+    {
+      "item": {
+        "_id": {
+          "$oid": "656df3e1887f615128399aea"
+        },
+        "title": "Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "slugProduct": "dragon-ball-z-cuoc-chien-giua-cac-vi-than",
+        "price": "245000",
+        "author": "Akira Toriyama",
+        "year": "2023",
+        "isbn": "8935352601501",
+        "review_count": "1",
+        "image": "/uploads/dragon-ball-z-cuoc-chien-giua-cac-vi-than_bia.jpg",
+        "describeProduct": "[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "descriptionProduct": "<div class=\"product_view_tab_content_ad\" style=\"margin: 0px; padding: 0px; overflow: hidden; max-height: 600px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">4 năm sau trận chiến kinh thiên động địa với Ma Buu, Thần Hủy Diệt Beerus đã thức tỉnh. Đó là vị thần nổi tiếng độc đoán với sở thích đi phá hủy các hành tinh trong vũ trụ. Lần này, Thần Beerus đến Trái Đất vì muốn tìm một kẻ được mệnh danh là “Siêu Saiya God” và vô tình trở thành khách mời trong bữa tiệc sinh nhật của Bulma. Bữa tiệc đang diễn ra rất vui vẻ thì bỗng có một sự kiện khiến Beerus nổi đóa, ông ta tuyên bố sẽ phá hủy Trái Đất! Goku và các bạn sẽ xử trí thế nào đây? Rốt cuộc “Siêu Saiya God” là ai?</p><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; font-size: 1em;\"></div></div></div></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"></div><div style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px; overflow-y: hidden;\"><div class=\"product_view_tab_content_ad_more\" style=\"margin: -600px 0px 0px; padding: 0px;\"><div class=\"product_view_tab_content_additional\" style=\"margin: 0px; padding: 0px; border-bottom: 1px solid rgb(193, 193, 193);\"><table class=\"data-table table-additional\" style=\"margin: 10px 0px; padding: 0px; border-spacing: 0px; max-width: 100%; background: transparent; border: none; empty-cells: show; width: 1200px; box-shadow: none;\"><colgroup style=\"margin: 0px; padding: 0px;\"><col width=\"25%\" style=\"margin: 0px; padding: 0px;\"><col style=\"margin: 0px; padding: 0px;\"></colgroup><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Mã hàng</th><td class=\"data_sku\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">8935352601501</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Độ Tuổi</th><td class=\"data_age\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/all-category.html?age=892137&amp;fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">13+</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tên Nhà Cung Cấp</th><td class=\"data_supplier\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/kim-dong?fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">Nhà Xuất Bản Kim Đồng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tác giả</th><td class=\"data_author\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Akira Toriyama</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Người Dịch</th><td class=\"data_translator\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Barbie Ayumi, Admin Kej</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">NXB</th><td class=\"data_publisher\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Kim Đồng</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Năm XB</th><td class=\"data_publish_year\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">2023</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Ngôn Ngữ</th><td class=\"data_languages\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Tiếng Việt</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Trọng lượng (gr)</th><td class=\"data_weight\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">370</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Kích Thước Bao Bì</th><td class=\"data_size\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">17.6 x 11.3 x 1.7 cm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Số trang</th><td class=\"data_qty_of_page\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">356</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Hình thức</th><td class=\"data_book_layout\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Bìa Mềm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Sản phẩm bán chạy nhất</th><td style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a href=\"https://www.fahasa.com/sach-trong-nuoc/manga-comic/manga/series-manga.html?order=num_orders_month\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s; font-size: 14px;\">Top 100 sản phẩm Series Manga bán chạy của tháng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><td colspan=\"2\" style=\"margin: 0px; padding: 0px; vertical-align: top; border: none; font-size: 1.1em;\"><div style=\"margin: 0px; padding: 0px;\">Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,...</div><div style=\"margin: 0px; padding: 0px; color: rgb(201, 33, 39);\">Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc</div></td></tr></tbody></table></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both;\"></div><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Cá</strong></p></div></div></div></div>\r\n                                                                        \r\n                                                                        ",
+        "categoryName": "sach-manga",
+        "createdAt": {
+          "$date": "2023-12-04T15:44:33.497Z"
+        },
+        "updatedAt": {
+          "$date": "2023-12-05T12:04:13.533Z"
+        },
+        "__v": 0
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "65706c0a0a33d78d1446590f"
+      }
+    }
+  ],
+  "totalPrice": 245000,
+  "status": "Complete",
+  "address": "123 Main St, City1, Country1",
+  "phone": "0 393 000 360",
+  "paymentMethod": "delivery",
+  "vnpayID": null,
+  "comment": "qqqqqqqqq",
+  "orderDate": {
+    "$date": "2023-12-06T12:41:46.847Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6570a4612dd35f08b00bf787"
+  },
+  "codeOrder": "I67YB",
+  "emailOrder": "trinhdtpd05658@fpt.edu.vn",
+  "products": [
+    {
+      "item": {
+        "_id": {
+          "$oid": "656739911f6ef15a678bcf76"
+        },
+        "title": "Đầu Tư Thông Minh",
+        "slugProduct": "au-tu-thong-minh",
+        "price": "235000",
+        "author": "Anthony Robbins",
+        "year": "2023",
+        "isbn": "8935086856765",
+        "review_count": "0",
+        "average_score": "NaN",
+        "image": "/uploads/8935086856765.jpg",
+        "describeProduct": "sách chứng khoán",
+        "descriptionProduct": "<div class=\"product_view_tab_content_ad\" style=\"margin: 0px; padding: 0px; overflow: hidden; max-height: 600px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">ĐẦU TƯ THÔNG MINH</strong></p><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">Bạn cảm thấy như thế nào nếu từ tâm trí, trái tim và sâu thẳm trong tâm hồn mình, bạn biết mình sẽ luôn được sung túc? Bạn cảm thấy như thế nào khi biết chắc chắn rằng dù có bất cứ chuyện gì xảy ra với nền kinh tế, thị trường chứng khoán hay thị trường bất động sản, bạn vẫn luôn có sự an toàn về mặt tài chính đến cuối đời? Bạn cảm thấy như thế nào khi biết mình sẽ có một gia tài to lớn đủ để bạn không chỉ có thể chăm lo cho gia đình mà còn tận hưởng niềm vui đến từ việc giúp đỡ người khác?</p><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">Tất cả chúng ta đều mơ ước đạt được sự bình yên nội tại, sự thoải mái, độc lập và tự do đó. Nói một cách ngắn gọn, chúng ta đều khao khát có được trạng thái vững vàng trước mọi biến động.</p><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">Sau khi phỏng vấn những chuyên gia tài chính và nhà đầu tư lừng lẫy nhất thế giới, Anthony Robbins đã đúc kết những bài học và bí quyết thành công của họ vào quyển sách này. Kết hợp với những lời khuyên giá trị từ Peter Mallouk, nhân vật duy nhất trong lịch sử tài chính được vinh danh là chuyên gia tư vấn tài chính hàng đầu thế giới trong ba năm liên tiếp, Unshakeable xứng đáng là quyển sách gối đầu giường về tự do tài chính.</p><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">Bất kể thu nhập hiện tại của bạn đang là bao nhiêu, bạn đang ở giai đoạn nào của cuộc sống và bạn bắt đầu từ khi nào, quyển sách này sẽ mang lại những công cụ cần thiết để bạn có thể hoàn thành các mục tiêu tài chính của mình trong khoảng thời gian nhanh đến mức bạn không bao giờ ngờ tới.</p><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; font-size: 1em;\"></div></div></div></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"></div><div style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px; overflow-y: hidden;\"><div class=\"product_view_tab_content_ad_more\" style=\"margin: -600px 0px 0px; padding: 0px;\"><div class=\"product_view_tab_content_additional\" style=\"margin: 0px; padding: 0px; border-bottom: 1px solid rgb(193, 193, 193);\"><table class=\"data-table table-additional\" style=\"margin: 10px 0px; padding: 0px; border-spacing: 0px; max-width: 100%; background: transparent; border: none; empty-cells: show; width: 1200px; box-shadow: none;\"><colgroup style=\"margin: 0px; padding: 0px;\"><col width=\"25%\" style=\"margin: 0px; padding: 0px;\"><col style=\"margin: 0px; padding: 0px;\"></colgroup><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Mã hàng</th><td class=\"data_sku\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">8935086856765</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tên Nhà Cung Cấp</th><td class=\"data_supplier\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/first-news?fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">FIRST NEWS</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tác giả</th><td class=\"data_author\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Anthony Robbins</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Người Dịch</th><td class=\"data_translator\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Vương Bảo Long</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">NXB</th><td class=\"data_publisher\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Dân Trí</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Năm XB</th><td class=\"data_publish_year\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">2022</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Trọng lượng (gr)</th><td class=\"data_weight\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">400</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Kích Thước Bao Bì</th><td class=\"data_size\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">20.5 x 14.5 cm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Số trang</th><td class=\"data_qty_of_page\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">368</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Hình thức</th><td class=\"data_book_layout\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Bìa Mềm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Sản phẩm bán chạy nhất</th><td style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a href=\"https://www.fahasa.com/sach-trong-nuoc/kinh-te-chinh-tri-phap-ly/chung-khoan-bat-dong-san-dau-tu.html?order=num_orders_month\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s; font-size: 14px;\">Top 100 sản phẩm Chứng Khoán - Bất Động Sản - Đầu Tư bán chạy của tháng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><td colspan=\"2\" style=\"margin: 0px; padding: 0px; vertical-align: top; border: none; font-size: 1.1em;\"><div style=\"margin: 0px; padding: 0px;\">Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,...</div><div style=\"margin: 0px; padding: 0px; color: rgb(201, 33, 39);\">Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc</div></td></tr></tbody></table></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both;\"></div><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">ĐẦU TƯ THÔNG MINH</strong></p><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">Bạn cảm thấy như thế nào nếu từ tâm trí, trái tim và sâu thẳm trong tâm hồn mình, bạn biết mình sẽ luôn được sung túc? Bạn cảm thấy như thế nào khi biết chắc chắn rằng dù có bất cứ chuyện gì xảy ra với nền kinh tế, thị trường chứng khoán hay thị trường bất động sản, bạn vẫn luôn có sự an toàn về mặt tài chính đến cuối đời? Bạn cảm thấy như thế nào khi biết mình sẽ có một gia tài to lớn đủ để bạn không chỉ có thể chăm lo cho gia đình mà còn tận hưởng niềm vui đến từ việc giúp&nbsp;</p></div></div></div></div>",
+        "categoryName": "sach-chung-khoan",
+        "createdAt": {
+          "$date": "2023-11-29T13:16:01.084Z"
+        },
+        "updatedAt": {
+          "$date": "2023-12-01T08:29:43.159Z"
+        },
+        "__v": 0
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "6570a4612dd35f08b00bf788"
+      }
+    }
+  ],
+  "totalPrice": 235000,
+  "status": "Complete",
+  "address": "an đại 1, Quảng Ngãi, Vietnam",
+  "phone": "0 393 000 360",
+  "paymentMethod": "vnpay",
+  "vnpayID": {
+    "$oid": "6570a4612dd35f08b00bf785"
+  },
+  "comment": "qqqqqqqqqq",
+  "orderDate": {
+    "$date": "2023-12-06T16:42:09.954Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65714c58d6dae941eac92b42"
+  },
+  "codeOrder": "BWMGA",
+  "emailOrder": "trinhdtpd05658@fpt.edu.vn",
+  "products": [
+    {
+      "item": {
+        "_id": {
+          "$oid": "656df3e1887f615128399aea"
+        },
+        "title": "Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "slugProduct": "dragon-ball-z-cuoc-chien-giua-cac-vi-than",
+        "price": "245000",
+        "author": "Akira Toriyama",
+        "year": "2023",
+        "isbn": "8935352601501",
+        "review_count": "1",
+        "image": "/uploads/dragon-ball-z-cuoc-chien-giua-cac-vi-than_bia.jpg",
+        "describeProduct": "[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "descriptionProduct": "<div class=\"product_view_tab_content_ad\" style=\"margin: 0px; padding: 0px; overflow: hidden; max-height: 600px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">4 năm sau trận chiến kinh thiên động địa với Ma Buu, Thần Hủy Diệt Beerus đã thức tỉnh. Đó là vị thần nổi tiếng độc đoán với sở thích đi phá hủy các hành tinh trong vũ trụ. Lần này, Thần Beerus đến Trái Đất vì muốn tìm một kẻ được mệnh danh là “Siêu Saiya God” và vô tình trở thành khách mời trong bữa tiệc sinh nhật của Bulma. Bữa tiệc đang diễn ra rất vui vẻ thì bỗng có một sự kiện khiến Beerus nổi đóa, ông ta tuyên bố sẽ phá hủy Trái Đất! Goku và các bạn sẽ xử trí thế nào đây? Rốt cuộc “Siêu Saiya God” là ai?</p><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; font-size: 1em;\"></div></div></div></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"></div><div style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px; overflow-y: hidden;\"><div class=\"product_view_tab_content_ad_more\" style=\"margin: -600px 0px 0px; padding: 0px;\"><div class=\"product_view_tab_content_additional\" style=\"margin: 0px; padding: 0px; border-bottom: 1px solid rgb(193, 193, 193);\"><table class=\"data-table table-additional\" style=\"margin: 10px 0px; padding: 0px; border-spacing: 0px; max-width: 100%; background: transparent; border: none; empty-cells: show; width: 1200px; box-shadow: none;\"><colgroup style=\"margin: 0px; padding: 0px;\"><col width=\"25%\" style=\"margin: 0px; padding: 0px;\"><col style=\"margin: 0px; padding: 0px;\"></colgroup><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Mã hàng</th><td class=\"data_sku\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">8935352601501</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Độ Tuổi</th><td class=\"data_age\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/all-category.html?age=892137&amp;fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">13+</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tên Nhà Cung Cấp</th><td class=\"data_supplier\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/kim-dong?fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">Nhà Xuất Bản Kim Đồng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tác giả</th><td class=\"data_author\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Akira Toriyama</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Người Dịch</th><td class=\"data_translator\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Barbie Ayumi, Admin Kej</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">NXB</th><td class=\"data_publisher\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Kim Đồng</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Năm XB</th><td class=\"data_publish_year\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">2023</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Ngôn Ngữ</th><td class=\"data_languages\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Tiếng Việt</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Trọng lượng (gr)</th><td class=\"data_weight\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">370</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Kích Thước Bao Bì</th><td class=\"data_size\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">17.6 x 11.3 x 1.7 cm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Số trang</th><td class=\"data_qty_of_page\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">356</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Hình thức</th><td class=\"data_book_layout\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Bìa Mềm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Sản phẩm bán chạy nhất</th><td style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a href=\"https://www.fahasa.com/sach-trong-nuoc/manga-comic/manga/series-manga.html?order=num_orders_month\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s; font-size: 14px;\">Top 100 sản phẩm Series Manga bán chạy của tháng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><td colspan=\"2\" style=\"margin: 0px; padding: 0px; vertical-align: top; border: none; font-size: 1.1em;\"><div style=\"margin: 0px; padding: 0px;\">Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,...</div><div style=\"margin: 0px; padding: 0px; color: rgb(201, 33, 39);\">Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc</div></td></tr></tbody></table></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both;\"></div><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Cá</strong></p></div></div></div></div>\r\n                                                                        \r\n                                                                        ",
+        "categoryName": "sach-manga",
+        "createdAt": {
+          "$date": "2023-12-04T15:44:33.497Z"
+        },
+        "updatedAt": {
+          "$date": "2023-12-05T12:04:13.533Z"
+        },
+        "__v": 0
+      },
+      "quantity": 5,
+      "_id": {
+        "$oid": "65714c58d6dae941eac92b43"
+      }
+    }
+  ],
+  "totalPrice": 1225000,
+  "status": "Complete",
+  "address": "an đại 1, Nghĩa Phương, Tư Nghĩa, Quảng Ngãi",
+  "phone": "0 393 000 360",
+  "paymentMethod": "delivery",
+  "vnpayID": null,
+  "comment": "kkkkkk",
+  "orderDate": {
+    "$date": "2023-12-07T04:38:48.379Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65714e8ed6dae941eac92b7b"
+  },
+  "codeOrder": "TWKZX",
+  "emailOrder": "trinhdtpd05658@fpt.edu.vn",
+  "products": [
+    {
+      "item": {
+        "_id": {
+          "$oid": "656df3e1887f615128399aea"
+        },
+        "title": "Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "slugProduct": "dragon-ball-z-cuoc-chien-giua-cac-vi-than",
+        "price": "245000",
+        "author": "Akira Toriyama",
+        "year": "2023",
+        "isbn": "8935352601501",
+        "review_count": "1",
+        "image": "/uploads/dragon-ball-z-cuoc-chien-giua-cac-vi-than_bia.jpg",
+        "describeProduct": "[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Các Vị Thần",
+        "descriptionProduct": "<div class=\"product_view_tab_content_ad\" style=\"margin: 0px; padding: 0px; overflow: hidden; max-height: 600px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\">4 năm sau trận chiến kinh thiên động địa với Ma Buu, Thần Hủy Diệt Beerus đã thức tỉnh. Đó là vị thần nổi tiếng độc đoán với sở thích đi phá hủy các hành tinh trong vũ trụ. Lần này, Thần Beerus đến Trái Đất vì muốn tìm một kẻ được mệnh danh là “Siêu Saiya God” và vô tình trở thành khách mời trong bữa tiệc sinh nhật của Bulma. Bữa tiệc đang diễn ra rất vui vẻ thì bỗng có một sự kiện khiến Beerus nổi đóa, ông ta tuyên bố sẽ phá hủy Trái Đất! Goku và các bạn sẽ xử trí thế nào đây? Rốt cuộc “Siêu Saiya God” là ai?</p><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; font-size: 1em;\"></div></div></div></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px;\"></div><div style=\"margin: 0px; padding: 0px; color: rgb(51, 51, 51); font-family: nunito-sans, sans-serif, Helvetica, Arial; font-size: 13px; overflow-y: hidden;\"><div class=\"product_view_tab_content_ad_more\" style=\"margin: -600px 0px 0px; padding: 0px;\"><div class=\"product_view_tab_content_additional\" style=\"margin: 0px; padding: 0px; border-bottom: 1px solid rgb(193, 193, 193);\"><table class=\"data-table table-additional\" style=\"margin: 10px 0px; padding: 0px; border-spacing: 0px; max-width: 100%; background: transparent; border: none; empty-cells: show; width: 1200px; box-shadow: none;\"><colgroup style=\"margin: 0px; padding: 0px;\"><col width=\"25%\" style=\"margin: 0px; padding: 0px;\"><col style=\"margin: 0px; padding: 0px;\"></colgroup><tbody style=\"margin: 0px; padding: 0px;\"><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Mã hàng</th><td class=\"data_sku\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">8935352601501</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Độ Tuổi</th><td class=\"data_age\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/all-category.html?age=892137&amp;fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">13+</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tên Nhà Cung Cấp</th><td class=\"data_supplier\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a class=\"xem-chi-tiet\" href=\"https://www.fahasa.com/kim-dong?fhs_campaign=ATTRIBUTE_PRODUCT\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s;\">Nhà Xuất Bản Kim Đồng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Tác giả</th><td class=\"data_author\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Akira Toriyama</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Người Dịch</th><td class=\"data_translator\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Barbie Ayumi, Admin Kej</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">NXB</th><td class=\"data_publisher\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Kim Đồng</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Năm XB</th><td class=\"data_publish_year\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">2023</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Ngôn Ngữ</th><td class=\"data_languages\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Tiếng Việt</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Trọng lượng (gr)</th><td class=\"data_weight\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">370</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Kích Thước Bao Bì</th><td class=\"data_size\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">17.6 x 11.3 x 1.7 cm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Số trang</th><td class=\"data_qty_of_page\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">356</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Hình thức</th><td class=\"data_book_layout\" style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\">Bìa Mềm</td></tr><tr style=\"margin: 0px; padding: 0px;\"><th class=\"table-label\" style=\"margin: 0px; padding: 4px; text-align: left; vertical-align: baseline; font-weight: normal; border: none; line-height: 1.6; text-wrap: nowrap; color: rgb(119, 119, 119); font-size: 1.1em;\">Sản phẩm bán chạy nhất</th><td style=\"margin: 0px; padding: 4px; vertical-align: top; border: none; font-size: 1.1em;\"><a href=\"https://www.fahasa.com/sach-trong-nuoc/manga-comic/manga/series-manga.html?order=num_orders_month\" style=\"margin: 0px; padding: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; color: rgb(36, 137, 244); transition: all 300ms ease-in 0s; font-size: 14px;\">Top 100 sản phẩm Series Manga bán chạy của tháng</a></td></tr><tr style=\"margin: 0px; padding: 0px;\"><td colspan=\"2\" style=\"margin: 0px; padding: 0px; vertical-align: top; border: none; font-size: 1.1em;\"><div style=\"margin: 0px; padding: 0px;\">Giá sản phẩm trên Fahasa.com đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như Phụ phí đóng gói, phí vận chuyển, phụ phí hàng cồng kềnh,...</div><div style=\"margin: 0px; padding: 0px; color: rgb(201, 33, 39);\">Chính sách khuyến mãi trên Fahasa.com không áp dụng cho Hệ thống Nhà sách Fahasa trên toàn quốc</div></td></tr></tbody></table></div><div class=\"clear\" style=\"margin: 0px; padding: 0px; clear: both;\"></div><div id=\"product_tabs_description_contents\" style=\"margin: 20px 0px 0px; padding: 0px; line-height: 25px;\"><div id=\"desc_content\" class=\"std\" style=\"margin: 0px; padding: 0px;\"><p style=\"margin-right: 0px; margin-bottom: 10px; margin-left: 0px; padding: 0px; font-size: 1em; text-align: justify;\"><strong style=\"margin: 0px; padding: 0px; font-weight: bold; font-family: Arial, Helvetica, sans-serif;\">[Anime Comics] Dragon Ball Z - Cuộc Chiến Giữa Cá</strong></p></div></div></div></div>\r\n                                                                        \r\n                                                                        ",
+        "categoryName": "sach-manga",
+        "createdAt": {
+          "$date": "2023-12-04T15:44:33.497Z"
+        },
+        "updatedAt": {
+          "$date": "2023-12-05T12:04:13.533Z"
+        },
+        "__v": 0
+      },
+      "quantity": 1,
+      "_id": {
+        "$oid": "65714e8ed6dae941eac92b7c"
+      }
+    }
+  ],
+  "totalPrice": 245000,
+  "status": "Processed",
+  "address": "an đại 1, Nghĩa Phương, Tư Nghĩa, Quảng Ngãi",
+  "phone": "0 393 000 360",
+  "paymentMethod": "delivery",
+  "vnpayID": null,
+  "comment": "wwwwwwww",
+  "orderDate": {
+    "$date": "2023-12-07T04:48:14.640Z"
+  },
+  "__v": 0
+}]

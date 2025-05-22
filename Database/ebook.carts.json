@@ -1,0 +1,57 @@
+[{
+  "_id": {
+    "$oid": "656df0a3887f615128399a0e"
+  },
+  "user_id": {
+    "$oid": "656a8ee94a0f469d37fb2d63"
+  },
+  "product_id": {
+    "$oid": "656736c61f6ef15a678bcecc"
+  },
+  "quantity": "1",
+  "createdAt": {
+    "$date": "2023-12-04T15:30:43.809Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-04T15:30:43.809Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65708db5b57083d7300cca21"
+  },
+  "user_id": {
+    "$oid": "65708d5db57083d7300cca0b"
+  },
+  "product_id": {
+    "$oid": "64151cd85ba8a9c1908cb0ed"
+  },
+  "quantity": "1",
+  "createdAt": {
+    "$date": "2023-12-06T15:05:25.314Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-06T15:05:25.314Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "65715a06149af9e1cea511b0"
+  },
+  "user_id": {
+    "$oid": "656a8ee94a0f469d37fb2d63"
+  },
+  "product_id": {
+    "$oid": "656df3e1887f615128399aea"
+  },
+  "quantity": "1",
+  "createdAt": {
+    "$date": "2023-12-07T05:37:10.897Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-07T05:37:10.897Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "65615a3428b82630f5a356f9"
+  },
+  "rating": 5,
+  "comment": "qqqq",
+  "slugProduct": "marketing-can-ban",
+  "email": "admin@gmail.com",
+  "createdAt": {
+    "$date": "2023-11-25T02:21:40.245Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-25T02:21:40.245Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "6565ec4913063d2a3bf64025"
+  },
+  "rating": 5,
+  "comment": "ok",
+  "slugProduct": "marketing-can-ban",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "createdAt": {
+    "$date": "2023-11-28T13:34:01.467Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-28T13:34:01.467Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656736eb1f6ef15a678bcee0"
+  },
+  "rating": 5,
+  "comment": "ok",
+  "slugProduct": "co-the-tu-chua-lanh-nuoc-ep-can-tay",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "createdAt": {
+    "$date": "2023-11-29T13:04:43.318Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-29T13:04:43.318Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656748e61f6ef15a678bd031"
+  },
+  "rating": 5,
+  "comment": "quá oke",
+  "slugProduct": "co-the-tu-chua-lanh-nuoc-ep-can-tay",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "createdAt": {
+    "$date": "2023-11-29T14:21:26.250Z"
+  },
+  "updatedAt": {
+    "$date": "2023-11-29T14:21:26.250Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656a8c62711853d2c1532cb2"
+  },
+  "rating": 3,
+  "comment": "oke lắm",
+  "slugProduct": "nha-gia-kim-tai-ban-2020",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "createdAt": {
+    "$date": "2023-12-02T01:46:10.189Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-04T15:22:06.347Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "656df974ef404f1579761457"
+  },
+  "rating": 4,
+  "comment": "quá oke",
+  "slugProduct": "dragon-ball-z-cuoc-chien-giua-cac-vi-than",
+  "email": "trinhdtpd05658@fpt.edu.vn",
+  "createdAt": {
+    "$date": "2023-12-04T16:08:20.196Z"
+  },
+  "updatedAt": {
+    "$date": "2023-12-04T16:08:20.196Z"
+  },
+  "__v": 0
+}]
